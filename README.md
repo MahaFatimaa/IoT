@@ -2,13 +2,11 @@
 
 ## Table of Contents
 
-- Overview
-- Project Methodology
-- Implementation Workflow
-- Technologies Used
-- Components
-- Team Members
-- Contact
+- [Overview](#overview)
+- [Project Methodology](#project-methodology)
+- [Implementation Workflow](#implementation-workflow)
+- [Technologies Used](#technologies-used)
+- [Components](#components)
 
 ## Overview
 
@@ -18,14 +16,14 @@ This project presents an IoT-based security monitoring system specifically desig
 
 The core methodology involves using deep learning techniques to detect weapons, specifically pistols, in ATM CCTV footage. The focus is on object recognition using Convolutional Neural Networks (CNNs) to analyze live video streams. The system is designed to:
 
-- Identify pistols in video frames through image classification
-- Locate weapons precisely using object localization
-- Combine both tasks in real-time with object detection
+- Identify pistols in video frames through image classification.
+- Locate weapons precisely using object localization.
+- Combine both tasks in real-time with object detection.
 
 Two major approaches are used for detection:
 
-1. Sliding Window Classification Models: The image is scanned using a window that moves systematically to identify the presence of a weapon.
-2. Region Proposal/Object Detection Models: Advanced detection frameworks such as the YOLO series are used to identify objects and predict bounding boxes with high accuracy and speed.
+1. **Sliding Window Classification Models**: The image is scanned using a window that moves systematically to identify the presence of a weapon.
+2. **Region Proposal/Object Detection Models**: Advanced detection frameworks such as the YOLO series are used to identify objects and predict bounding boxes with high accuracy and speed.
 
 ## Implementation Workflow
 
